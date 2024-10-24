@@ -91,7 +91,15 @@
   }
 }
 
-body {
+.imagen-redonda {
+    width: 200px; /* Ajusta el tamaño según lo que necesites */
+    height: 200px; /* Asegúrate de que el alto y el ancho sean iguales */
+    border-radius: 50%; /* Esto hará que la imagen sea redonda */
+    object-fit: cover; /* Esto asegura que la imagen mantenga la proporción */
+    display: block; /* Opcional: para asegurarte de que se comporte como un bloque si es necesario */
+    margin: 0 auto; /* Centra la imagen horizontalmente si lo deseas */
+}
+
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
