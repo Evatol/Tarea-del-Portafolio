@@ -11108,3 +11108,11 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+.imagen-redonda {
+    width: 150px; /* Ajusta el tamaño según lo que necesites */
+    height: 150px; /* Asegúrate de que el ancho y el alto sean iguales */
+    border-radius: 50%; /* Esto hará que la imagen sea redonda */
+    object-fit: cover; /* Para que la imagen se ajuste bien */
+    display: block; /* Para que se comporte como un bloque */
+    margin: 0 auto; /* Si quieres centrarla en el header */
+}
